@@ -1,42 +1,69 @@
-.father {
+.father2 {
     display: flex;
     column-gap: 15px;
+    margin-top: 100px;
 }
 .one {
     width: 350px;
     height: 400px;
     border: 0.5px solid black;
     padding: 5px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-right: 10px;
     margin-left: 20px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    align-items: center;
+    z-index: 10;
+
+
 
 }
 .texth {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 50px;
     margin-right: 50px;
+
 
 }
 h2 {
     font-size: 22px;
+
 }
 .text2{
     border: 0.5px solid black;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
+
 }
 .text {
     text-align: center;
     color: gray;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 50px;
     margin-right: 50px;
     font-size: 18px;
+
+}
+.kolo1 {
+    position: relative;
+    top:-20px;
+}
+.kolo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 0.5px solid black;
+    justify-content: center;
+    align-items: center;
+    top: -40px;
+    position: relative;
+    z-index: 15;
+    background-color: white;
+    border-radius: 50%;
+
 }
